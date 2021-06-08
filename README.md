@@ -1,20 +1,23 @@
-# EscalandoVue-ComNuxt
+<!---->
+<div align="center">
+<img src="./ReadMeFiles/app.jpg" align="center">
+</div>
 
-## Build Setup
+# Ibook - Leitor Online de e-books
 
-```bash
-# install dependencies
-$ npm install
+<p>Esse projeto foi feito por: <strong>Thiago Silva Lopes</strong>, em 06/2021,</br>
+tendo como base, as aulas de Escalando Vue com NuxtJs, no Bootcamp Full Stack da <a href="https://bootcamp.cataline.io/">Cataline</a>
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+## Demo:
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+##### Para instalar o projeto localmente, com a pasta "node_modules":
 
-# generate static project
-$ npm run generate
+```
+npm install
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+##### Para compilar/executar o projeto localmente:
+
+```
+npm run dev
+```
