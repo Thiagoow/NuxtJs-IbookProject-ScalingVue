@@ -3,7 +3,7 @@
 <img src="./ReadMeFiles/app.jpg" align="center">
 </div>
 
-# Ibook - Leitor Online de e-books
+# Ibook - Plataforma de leitura online para livros digitais
 
 <p>Esse projeto foi feito por: <strong>Thiago Silva Lopes</strong>, em 06/2021,</br>
 tendo como base, as aulas de Escalando Vue com NuxtJs, no Bootcamp Full Stack da <a href="https://bootcamp.cataline.io/">Cataline</a>
