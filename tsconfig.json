@@ -13,9 +13,10 @@
     "baseUrl": ".",
     "paths": {
       "~/*": ["./*"],
-      "@/*": ["./*"],
+      "@/*": ["./*"]
+      /*
       "@en/*": ["./pages/ExplorandoNuxt/*"],
-      "@pages/*": ["/pages/*"]
+      "@pages/*": ["/pages/*"]*/
     },
     "types": ["@nuxt/types", "@types/node"]
   },

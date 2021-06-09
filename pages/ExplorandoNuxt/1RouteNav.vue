@@ -12,6 +12,14 @@
   </div>
 </template>
 
+<script lang="ts">
+import Vue from 'vue'
+export default Vue.extend({
+  /*  Herdando um layout manualmente: 
+  layout: 'ExplorandoNuxt/HowThisFolderWorks', */
+})
+</script>
+
 <style scoped>
 /*A classe:*/
 .nuxt-link-exact-active {
