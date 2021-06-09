@@ -1,5 +1,14 @@
 <template>
   <div>
+    <!--NÃO É RECOMENDADO, QUE MODIFIQUEMOS ESSE
+    LAYOUT PADRÃO PARA USA-LO COMO LAYOUT DE PÁGINAS.
+    POIS SE ALGUM MOMENTO PRECISARMOS DE UM LAYOUT EM BRANCO,
+    SEM NADA, ELA JÁ EXISTIRÁ, SERÁ "default.vue" QUE
+    ESTAMOS AGORA 😉. Ou seja = só vamos definir um layout
+    pras páginas que utilizarem um layout modificado! 😁😎
+    
+    Sendo assim = NÃO MODIFIQUE ESSE LAYOUT, APENAS CRIE OUTROS
+    PARA UTILIZAR EM SUAS PAGES 🤟🏼😎-->
     <Nuxt />
   </div>
 </template>
