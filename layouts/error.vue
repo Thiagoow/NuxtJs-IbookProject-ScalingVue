@@ -3,7 +3,7 @@
 personalizada no Nuxt.js, precisamos apenas criar 
 um componente "error.vue" dentro da pasta layouts.-->
   <div class="error">
-    <img class="errorImg" src="/assets/images/error.svg" alt="Apresentação" />
+    <img class="errorImg" src="/assets/images/e404.png" alt="error" />
     <h1>Error 404 😕</h1>
 
     <h5>The page that you trying to find doesn't exist!</h5>
@@ -11,8 +11,8 @@ um componente "error.vue" dentro da pasta layouts.-->
 </template>
 
 <style scoped>
-body {
-  background: black;
+* {
+  background: rgb(9, 32, 97);
   color: white;
 }
 
@@ -24,6 +24,7 @@ body {
 }
 
 .errorImg {
+  z-index: 1000;
   width: 500px;
   height: 250px;
 }
