@@ -1,0 +1,23 @@
+Com o npm podemos rodar nossa aplicação em um ambiente de 
+desenvolvimento o qual pode ser acessado por qualquer navegador 
+conectado a mesma rede que o seu notebook/pc 😁😎😎❗ 
+Pra fazer isso:
+
+1º - No package.json, inserimos embaixo do "dev" ou "serve":
+    "dev:shared": "nuxt-ts --hostname 0.0.0.0",
+
+--------CASO SUA APLICAÇÃO NÃO USE TYPESCRIPT, REMOVA O:--------
+"-ts" depois de "nuxt", no que deve ser inserido no package.json
+
+2º - Digitamos no terminal da raiz do nosso projeto o comando:
+    npm run dev:shared
+
+E PRONTO! 🤩🤟🏼😎
+
+----------Caso você queira mudar a porta do ip------------------
+------------------da aplicação rodando:-------------------------
+(por padrão, a que vem é a 3000 OU a que você definiu no projeto)
+
+- Insira no package.json, embaixo do "dev" ou "serve":
+    "dev:shared": "nuxt-ts --hostname 0.0.0.0 --port ZZZZ",
+
