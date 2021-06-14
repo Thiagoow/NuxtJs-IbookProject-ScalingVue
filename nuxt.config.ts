@@ -18,6 +18,12 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
+  /* Executando plugins apenas no server/ssr/terminal:
+  plugins: [{ src: '@/plugins/hello', mode: 'server' }],
+
+  Executando plugins apenas no client/navegador:
+    plugins: [{ src: '@/plugins/hello', mode: 'client' }],
+  */
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -29,7 +35,13 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: ['@nuxtjs/axios'],
+
+  /* Opções do module de Nuxt axios, baixado em -> https://modules.nuxtjs.org/:
+   e definido como: "@nuxtjs/axios" no array de types, do "tsconfig.json" */
+  axios: {
+    baseURL: 'http://localhost:3333',
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
