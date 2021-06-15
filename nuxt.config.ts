@@ -37,6 +37,11 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ['@nuxtjs/axios', '@nuxtjs/style-resources'],
 
+  styleResources: {
+    // your settings here
+    scss: ['@/components/bosons/*.scss'],
+  },
+
   /* Opções do module de Nuxt axios, baixado em -> https://modules.nuxtjs.org/:
    e definido como: "@nuxtjs/axios" no array de types, do "tsconfig.json" */
   axios: {
