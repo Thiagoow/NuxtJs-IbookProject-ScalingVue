@@ -4,7 +4,7 @@
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem
       tempora iusto laboriosam est eligendi quidem, corporis velit mollitia
       fugit blanditiis animi inventore repellat enim nemo natus obcaecati eum
-      quas veniam.Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+      quas veniam. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
       Exercitationem tempora iusto laboriosam est eligendi quidem, corporis
       velit mollitia fugit blanditiis animi inventore repellat enim nemo natus
       obcaecati eum quas veniam.
@@ -18,7 +18,7 @@
 .presentation {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
+  grid-gap: 3rem;
   align-items: center;
   margin-bottom: -3rem;
   @include screen('small', 'medium') {
@@ -26,6 +26,7 @@
   }
   p {
     line-height: 26px;
+    text-align: justify;
   }
   img {
     max-width: 100%;
