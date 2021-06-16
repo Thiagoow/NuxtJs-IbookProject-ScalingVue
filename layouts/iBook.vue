@@ -7,16 +7,39 @@
       <Nuxt />
     </Container>
     <Footer />
+    <style>
+      /*Browser ScrollBar Style:*/
+      /* width */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #7e7a7a;
+      }
+
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #292929;
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: ##131212;
+      }
+    </style>
   </div>
 </template>
 
 <style lang="scss" scoped>
 .iBookLayout {
-  margin-top: 2.313rem;
+  margin-top: 1.313rem;
   display: grid;
-  grid-gap: 6.75rem;
+  grid-gap: 3.75rem;
   .container {
-    padding-bottom: 6.75rem;
+    margin-top: -1rem;
+    padding-bottom: 3.8rem;
   }
   .footer {
     position: absolute;

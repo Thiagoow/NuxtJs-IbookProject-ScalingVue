@@ -30,7 +30,7 @@ export default Vue.extend({
 <style lang="scss" scoped>
 .footer {
   width: 100%;
-  height: 110px;
+  height: 80px;
   background: color(dark, darkest);
   .container {
     display: grid;
@@ -42,6 +42,7 @@ export default Vue.extend({
       color: color('light', 'darkest');
       text-align: right;
       font-size: 16px;
+      margin-left: 30px;
       a {
         color: color('dark', 'base');
       }
