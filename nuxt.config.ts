@@ -17,7 +17,7 @@ export default {
   css: ['normalize.css/normalize.css', '@/assets/scss/base.scss'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: ['@/plugins/accessor'],
   /* Executando plugins apenas no server/ssr/terminal:
   plugins: [{ src: '@/plugins/hello', mode: 'server' }],
 
@@ -46,7 +46,8 @@ export default {
   /* Opções do module de Nuxt axios, baixado em -> https://modules.nuxtjs.org/:
    e definido como: "@nuxtjs/axios" no array de types, do "tsconfig.json" */
   axios: {
-    baseURL: 'http://localhost:3333',
+    baseURL:
+      process.env.NOV_ENV === 'production' ? '' : 'http://localhost:3333',
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

@@ -10,6 +10,7 @@
     "strict": true,
     "noEmit": true,
     "experimentalDecorators": true,
+    "importHelpers": true,
     "baseUrl": ".",
     "paths": {
       "~/*": ["./*"],
