@@ -26,7 +26,8 @@ export default {
   */
 
   // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
+  // Para importar automaticamente tds os components dentro de subpastas, na pasta components:
+  components: [{ path: '@/components', pathPrefix: false }],
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
