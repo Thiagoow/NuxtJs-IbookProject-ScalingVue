@@ -1,3 +1,6 @@
+// PARA USAR ESSE EXEMPLO, SUBSTITUA O CÓDIGO DO "@/pages/index.vue" por esse
+abaixo:
+
 <template>
   <div class="count">
     <h1>{{ $count }}</h1>
