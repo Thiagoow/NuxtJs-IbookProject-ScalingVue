@@ -15,6 +15,11 @@
 </template>
 
 <style lang="scss" scoped>
+@font-face {
+  font-family: Preciosa;
+  src: url(@/assets/fonts/Preciosa-VVKw.ttf);
+}
+
 .presentation {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -34,6 +39,7 @@
   b {
     font-family: Preciosa;
     font-size: 46px;
+    font-weight: 200;
   }
 }
 </style>
