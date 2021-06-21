@@ -1,8 +1,9 @@
-// PARA USAR ESSE EXEMPLO, SUBSTITUA O CÓDIGO DO "@/pages/index.vue" por esse
-abaixo:
-
+PARA USAR ESSE EXEMPLO, SUBSTITUA O CÓDIGO DO "@/pages/index.vue"
+POR TODO O CÓDIGO EXISTENTE NESSE ARQUIVO (mas salva oq tá no index antes, pq nunca se sabe :p):
+ 
 <template>
   <div class="count">
+    <!---->
     <h1>{{ $count }}</h1>
     <!--☝🏻 Var computed desse componente, com o mesmo nome do GETTER do método importado-->
     <button @click="increment">Increment</button>

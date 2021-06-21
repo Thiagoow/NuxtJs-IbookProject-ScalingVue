@@ -20,7 +20,7 @@ export default class Books extends VuexModule {
   // Estado a partir da interface para receber todos os livros da API:
   private books = [] as Book[]
   // Estado a partir de um objeto para receber da API os dados de um livro em específico:
-  private book = {} as Book
+  private singleBook = {} as Book
 
   // Getter de listagem de todos os livros:
   public get $all() {
@@ -29,7 +29,7 @@ export default class Books extends VuexModule {
 
   // Getter de listagem de um livro específico:
   public get $single() {
-    return this.book
+    return this.singleBook
   }
 
   /* Mutation que altera o estado de todos os livros: */
@@ -41,7 +41,7 @@ export default class Books extends VuexModule {
   /* Mutation que altera o estado de um livro específico: */
   @Mutation
   private SET_SINGLE(book: Book) {
-    this.book = book
+    this.singleBook = book
   }
 
   // Action que chama a mutation de alteração de estado de todos os livros:
@@ -58,10 +58,10 @@ export default class Books extends VuexModule {
 
   // Action que chama a mutation de alteração de estado de um livro:
   @Action
-  public async show(data: Show) {
+  public async show({ id }: Show) {
     /* Altera um livro em específico a partir do seu ID:
     (definido lá em cima na interface Show) */
-    const book = await $axios.$get(`books/${data.id}`)
+    const book = await $axios.$get(`books/${id}`)
     this.context.commit('SET_SINGLE', book)
   }
 
