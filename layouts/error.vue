@@ -3,27 +3,58 @@
 personalizada no Nuxt.js, precisamos apenas criar 
 um componente "error.vue" dentro da pasta layouts.-->
   <div class="error">
-    <ErrorLogo />
-    <h1>Error 404 😕</h1>
-
-    <h5>The page that you trying to find doesn't exist!</h5>
+    <img src="@/assets/img/404.svg" alt="Erro 404" />
+    <p>
+      A página que você tentou encontrar<br />
+      não existe ou foi removida! 😕
+    </p>
+    <button>
+      <NuxtLink to="/">Voltar à Home</NuxtLink>
+    </button>
   </div>
 </template>
 
 <style scoped>
 * {
-  background: rgb(3, 16, 51);
+  background: rgb(1, 9, 32);
   color: white;
 }
 
-h1 {
-  text-transform: uppercase;
+p {
+  font-size: 16px;
+  width: 90%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
 }
 
 .error {
-  height: 100vh;
+  width: 100%;
+  height: 100%;
+  background-color: color('dark', 'darkest');
+  color: color('light');
   display: grid;
-  place-items: center;
-  place-content: center;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  position: absolute;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  color: black;
+  text-align: center;
+  border-radius: 0.5rem;
+  border: none;
+  background: #e2e2e2;
+  outline: none;
+  border-radius: 0.9rem;
+  cursor: pointer;
+  box-shadow: 0px 0 13px 2px rgba(238, 238, 238, 0.3);
+  transition: all 0.2s linear;
+}
+
+img {
+  width: 90%;
 }
 </style>
