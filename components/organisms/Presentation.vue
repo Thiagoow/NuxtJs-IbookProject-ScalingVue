@@ -1,13 +1,13 @@
 <template>
   <div class="presentation">
     <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem
-      tempora iusto laboriosam est eligendi quidem, corporis velit mollitia
-      fugit blanditiis animi inventore repellat enim nemo natus obcaecati eum
-      quas veniam. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+      <b>L</b>orem ipsum dolor sit, amet consectetur adipisicing elit.
       Exercitationem tempora iusto laboriosam est eligendi quidem, corporis
       velit mollitia fugit blanditiis animi inventore repellat enim nemo natus
-      obcaecati eum quas veniam.
+      obcaecati eum quas veniam. Lorem ipsum dolor sit, amet consectetur
+      adipisicing elit. Exercitationem tempora iusto laboriosam est eligendi
+      quidem, corporis velit mollitia fugit blanditiis animi inventore repellat
+      enim nemo natus obcaecati eum quas veniam.
     </p>
 
     <img src="@/assets/img/presentation.svg" alt="Presentation iBook" />
@@ -30,6 +30,10 @@
   }
   img {
     max-width: 100%;
+  }
+  b {
+    font-family: Preciosa;
+    font-size: 46px;
   }
 }
 </style>
