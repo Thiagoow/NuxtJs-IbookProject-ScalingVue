@@ -61,8 +61,8 @@ export default class Books extends VuexModule {
   public async show({ id }: Show) {
     /* Altera um livro em específico a partir do seu ID:
     (definido lá em cima na interface Show) */
-    const book = await $axios.$get(`books/${id}`)
-    this.context.commit('SET_SINGLE', book)
+    const singleBook = await $axios.$get(`/books/${id}`)
+    this.context.commit('SET_SINGLE', singleBook)
   }
 
   /* Não precisamos desestruturar os dados requisitados na API com o Nuxt graças ao
