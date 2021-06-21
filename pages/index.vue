@@ -1,10 +1,5 @@
 <template>
-  <div class="count">
-    <h1>{{ $count }}</h1>
-    <!--☝🏻 Var computed desse componente, com o mesmo nome do GETTER do método importado-->
-    <button @click="increment">Increment</button>
-    <!--☝🏻 Método desse componente, com o mesmo nome da ACTION do método importado-->
-  </div>
+  <HomeTemplate />
 </template>
 
 <script lang="ts">
@@ -15,19 +10,11 @@ import { books } from '@/store'
 
 export default Vue.extend({
   layout: 'iBook',
-  // 2º Testando o módulo books:
-  computed: {
-    // Var computed local, com o mesmo nome do getter retornado:
-    $count() {
-      // Retorna o getter do módulo importado:
-      return books.$count
-    },
-  },
-  methods: {
-    increment() {
-      // Incrementa +1 com a ACTION do módulo importado:
-      books.increment(1)
-    },
+  /* Testando o módulo:
+  (sendo esse módulo assíncrono para a página
+  só ser exibida depois que os livros carregarem): */
+  async asyncData() {
+    await books.index()
   },
 })
 </script>

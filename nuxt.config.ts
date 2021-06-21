@@ -46,9 +46,11 @@ export default {
   /* Opções do module de Nuxt axios, baixado em -> https://modules.nuxtjs.org/:
    e definido como: "@nuxtjs/axios" no array de types, do "tsconfig.json" */
   axios: {
-    baseURL:
-      process.env.NOV_ENV === 'production' ? '' : 'http://localhost:3333',
+    baseURL: 'https://ibook-api.herokuapp.com',
   },
+  /* Se eu quiser mudar a URL do projeto com base no ambiente de produção ou dev:
+      baseURL: process.env.NOV_ENV === 'production' ? '' : 'http://localhost:3333', 
+  */
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
