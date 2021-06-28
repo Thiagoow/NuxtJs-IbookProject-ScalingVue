@@ -50,7 +50,11 @@ export default class Books extends VuexModule {
     /* Faz a requisição de listagem na baseURL definida no "nuxt.config.ts"
     a partir da rota nos parênteses: */
     const books = await $axios.$get('/books')
+
+    /* Vendo se a listagem de livros da API deu certo: 
     console.log(books)
+    */
+
     /* Dispara a partir do contexto commit para 
     executar a mutation de nome '' no estado X: */
     this.context.commit('SET_ALL', books)
