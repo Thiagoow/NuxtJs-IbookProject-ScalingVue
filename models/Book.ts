@@ -21,7 +21,7 @@ export interface Book {
   releaseDate: string
   title: string
   description: string
-  bookCover: string
+  cover: string
   categories: Category[]
   pages: Page[]
 }
