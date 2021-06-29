@@ -29,7 +29,8 @@ export default Vue.extend({
 .bookCard {
   color: inherit;
   display: grid;
-  grid-gap: 0.7rem;
+  //Espaçamento entre o texto e a capa:
+  grid-gap: 1rem;
   img {
     display: grid;
     width: 100%;
