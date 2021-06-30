@@ -36,7 +36,7 @@ export default Vue.extend({
     align-items: center;
     p {
       color: color('light', 'darkest');
-      text-align: left;
+      text-align: right;
       font-size: 16px;
       margin-left: 30px;
       a {
