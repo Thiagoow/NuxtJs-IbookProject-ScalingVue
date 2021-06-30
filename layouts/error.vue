@@ -8,9 +8,8 @@ um componente "error.vue" dentro da pasta layouts.-->
       A página que você tentou encontrar<br />
       não existe ou foi removida! 😕
     </p>
-    <button>
-      <NuxtLink to="/">Voltar à Home</NuxtLink>
-    </button>
+
+    <NuxtLink to="/">Voltar à Home</NuxtLink>
   </div>
 </template>
 
@@ -40,10 +39,11 @@ p {
   position: absolute;
 }
 
-button {
+a {
   padding: 0.5rem 1rem;
   color: black;
   text-align: center;
+  font-weight: bold;
   border-radius: 0.5rem;
   border: none;
   background: #e2e2e2;
