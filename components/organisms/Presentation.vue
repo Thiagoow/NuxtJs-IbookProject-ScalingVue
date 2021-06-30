@@ -6,12 +6,12 @@
       <a href="https://github.com/Thiagoow" target="_blank"
         >Thiago Silva Lopes</a
       >
-      em 2021, tendo como base, as aulas de Escalando Vue com Nuxt, no
+      em 2021, tendo como base as aulas de Escalando Vue com Nuxt, no
       <a href="https://bootcamp.cataline.io/" target="_blank"
         >Bootcamp Full Stack da Cataline.</a
       >
       Desenvolvido utilizando as tecnologias: Nuxt.js, VueX, Typescript, HTML e
-      SCSS. + as bibliotecas: Axios (instalada como módulo do Nuxt) e Swiper.js.
+      SCSS, e as bibliotecas: Axios (instalada como módulo do Nuxt) e Swiper.js.
       Você pode consultar o código completo desse website, nesse link:
       <a href="https://github.com/Thiagoow/NuxtJs-IbookProject-ScalingVue"
         >repositório do GitHub.</a

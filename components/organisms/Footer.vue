@@ -26,7 +26,7 @@ export default Vue.extend({
 <style lang="scss" scoped>
 .footer {
   width: 100%;
-  height: 6.5rem;
+  height: 5.5rem;
   background: color(dark, darkest);
   .container {
     display: grid;
@@ -34,6 +34,7 @@ export default Vue.extend({
     grid-auto-flow: column;
     justify-content: space-between;
     align-items: center;
+    vertical-align: middle;
     p {
       color: color('light', 'darkest');
       text-align: right;
