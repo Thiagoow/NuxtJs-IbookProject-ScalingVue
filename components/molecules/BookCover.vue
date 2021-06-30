@@ -32,6 +32,7 @@ export default Vue.extend({
   }
   .readBook {
     background: #292929;
+    border-radius: 5px;
     color: #f7f7f7;
     text-transform: uppercase;
     font-weight: 700;
