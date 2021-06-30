@@ -36,6 +36,7 @@ export default Vue.extend({
 
 <style lang="scss" scoped>
 .bookInfo {
+  width: 100%;
   .bookTitle {
     margin-bottom: 2rem;
   }
