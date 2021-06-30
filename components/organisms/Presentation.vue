@@ -1,13 +1,21 @@
 <template>
   <div class="presentation">
     <p>
-      <b>L</b>orem ipsum dolor sit, amet consectetur adipisicing elit.
-      Exercitationem tempora iusto laboriosam est eligendi quidem, corporis
-      velit mollitia fugit blanditiis animi inventore repellat enim nemo natus
-      obcaecati eum quas veniam. Lorem ipsum dolor sit, amet consectetur
-      adipisicing elit. Exercitationem tempora iusto laboriosam est eligendi
-      quidem, corporis velit mollitia fugit blanditiis animi inventore repellat
-      enim nemo natus obcaecati eum quas veniam.
+      <b>O</b> iBook é uma plataforma de leitura de livros on-line fictícia.
+      Criada por
+      <a href="https://github.com/Thiagoow" target="_blank"
+        >Thiago Silva Lopes</a
+      >
+      em 2021, tendo como base, as aulas de Escalando Vue com Nuxt, no
+      <a href="https://bootcamp.cataline.io/" target="_blank"
+        >Bootcamp Full Stack da Cataline.</a
+      >
+      Desenvolvido utilizando as tecnologias: Nuxt.js, VueX, Typescript, HTML e
+      SCSS. + as bibliotecas: Axios (instalada como módulo do Nuxt) e Swiper.js.
+      Você pode consultar o código completo desse website, nesse link:
+      <a href="https://github.com/Thiagoow/NuxtJs-IbookProject-ScalingVue"
+        >repositório do GitHub.</a
+      >
     </p>
 
     <img src="@/assets/img/presentation.svg" alt="Presentation iBook" />
@@ -32,6 +40,10 @@
   p {
     line-height: 26px;
     text-align: justify;
+  }
+  a {
+    font-weight: bold;
+    color: black;
   }
   img {
     max-width: 100%;

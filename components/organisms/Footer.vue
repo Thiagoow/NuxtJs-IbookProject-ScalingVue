@@ -4,13 +4,9 @@
       <Logo />
       <p>
         <a href="https://github.com/Thiagoow" target="_blank"
-          >&copy; Thiago Silva Lopes</a
+          >© Thiago Silva Lopes</a
         >
-        {{ anoAtual }} <br />
-        Made in 2021, with the
-        <a href="https://bootcamp.cataline.io/" target="_blank"
-          >Cataline Bootcamp</a
-        >
+        {{ anoAtual }}
       </p>
     </Container>
   </footer>
