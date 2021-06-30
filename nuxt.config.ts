@@ -53,5 +53,9 @@ export default {
   */
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    /* Remove o monte de css da HeadTag da página de detalhes do livro,
+    deixando ele num arquivo separado 😉: */
+    extractCSS: true,
+  },
 }

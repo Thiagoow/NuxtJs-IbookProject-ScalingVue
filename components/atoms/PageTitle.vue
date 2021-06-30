@@ -26,6 +26,7 @@ export default Vue.extend({
   text-align: center;
   font-size: 2.5rem;
   font-weight: 500;
+  margin-top: -1.5rem;
 
   @include screen('small', 'medium') {
     grid-template-columns: 1fr;

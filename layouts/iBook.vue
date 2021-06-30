@@ -39,7 +39,7 @@
   grid-gap: 3.75rem;
   .container {
     //Espaçamento entre o header e o conteúdo:
-    margin-top: -1.5rem;
+    margin-top: 1.5rem;
     padding-bottom: 3.8rem;
   }
   .footer {
