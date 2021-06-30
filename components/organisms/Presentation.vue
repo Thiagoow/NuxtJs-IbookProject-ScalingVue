@@ -35,6 +35,7 @@
   }
   img {
     max-width: 100%;
+    justify-self: center;
   }
   b {
     font-family: Preciosa;

@@ -4,10 +4,10 @@
       <Logo />
       <p>
         <a href="https://github.com/Thiagoow" target="_blank"
-          >Thiago Silva Lopes</a
+          >&copy; Thiago Silva Lopes</a
         >
         {{ anoAtual }} <br />
-        Copyright &copy; - Made in 2021, with the
+        Made in 2021, with the
         <a href="https://bootcamp.cataline.io/" target="_blank"
           >Cataline Bootcamp</a
         >
@@ -40,7 +40,7 @@ export default Vue.extend({
     align-items: center;
     p {
       color: color('light', 'darkest');
-      text-align: right;
+      text-align: left;
       font-size: 16px;
       margin-left: 30px;
       a {

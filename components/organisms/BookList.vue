@@ -28,6 +28,7 @@ export default Vue.extend({
   grid-template-rows: auto;
   //Espaçamento entre os livros:
   grid-gap: 2rem;
+  //Espaçamento entre a lista de livros e o footer:
   margin-bottom: -1.5rem;
   @include screen('small') {
     grid-template-columns: repeat(2, 1fr);
