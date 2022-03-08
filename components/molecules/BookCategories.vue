@@ -29,5 +29,20 @@ export default Vue.extend({
   grid-auto-flow: column;
   grid-auto-columns: max-content;
   grid-gap: 0.5rem;
+
+  @include screen('tiny') {
+    grid-auto-flow: row;
+    justify-content: center;
+    text-align: center;
+  }
+
+  @include screen('small') {
+    //Estiliza a partir do 3º elemento:
+    &:nth-child(n + 3) {
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+  }
 }
 </style>

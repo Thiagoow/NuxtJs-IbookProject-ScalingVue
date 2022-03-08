@@ -1,4 +1,7 @@
 $breakpoints: (
+  tiny: (
+    max-width: 500px,
+  ),
   //Mobile screen:
   small:
     (
@@ -26,7 +29,7 @@ $breakpoints: (
   infinity:
     (
       min-width: 1200px,
-    )
+    ),
 ) !default;
 
 @mixin screen($sizes...) {
