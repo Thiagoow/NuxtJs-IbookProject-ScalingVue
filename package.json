@@ -17,6 +17,7 @@
     "normalize.css": "^8.0.1",
     "nuxt": "^2.15.3",
     "sass": "^1.51.0",
+    "swiper": "6.8.1",
     "vuex-module-decorators": "^2.0.0",
     "webpack": "^5.72.0"
   },

@@ -43,8 +43,8 @@
 
 <script>
 import Vue from 'vue'
-import Swiper from 'swiper/swiper-bundle.min'
-import 'swiper/swiper-bundle.min.css'
+import Swiper from 'swiper/swiper-bundle'
+import 'swiper/swiper-bundle.css'
 import { books } from '@/store'
 
 export default Vue.extend({
