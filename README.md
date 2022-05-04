@@ -8,7 +8,7 @@
 <p>Esse projeto foi feito por: <strong>Thiago Silva Lopes</strong>, em 06/2021,</br>
 tendo como base, as aulas de Escalando Vue com Nuxt, no Bootcamp Full Stack da <a href="https://bootcamp.cataline.io/">Cataline</a>
 
-## Demo: https://ibook-nuxtproject.netlify.app/
+## Demo: https://ibook-nuxt.vercel.app
 
 ### ⚠ Esse projeto possui um API separada do aplicativo❗❗❗ Sendo assim, caso queira rodar esse app localmente, clone a API no repositório:
 
